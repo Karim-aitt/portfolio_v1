@@ -1,6 +1,11 @@
 import './App.css'
+
+// Components
 import Navbar from './components/Navbar/NavBar'
 import Footer from './components/footer/Footer'
+import Avatar from './components/avatar/Avatar'
+
+// Pages
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 
@@ -11,18 +16,13 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
-
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-        </Routes>
-
-
-      </BrowserRouter>
+      <Avatar />
+      <div className=''>
+        <h1>Titulo</h1>
+        <p>asdas dasdsa dasdsad sadsa dasd asdasdas asd asdas dsa dasdsad</p>
+      </div>
       
-        <Footer numero="9314"/>
+      <Footer/>
     </>
   )
 }

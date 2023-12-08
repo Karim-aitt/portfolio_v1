@@ -1,3 +1,15 @@
+
 body{
-    background-color: rgb(70, 70, 70);
+    margin: 30px 50px;
+}
+
+.app{
+    
+}
+
+/* MOBILE VIEW */
+@media (max-width: 645px) {
+    body{
+        background-color: red;
+    }
 }
