@@ -1,7 +1,8 @@
 
 .img{
-    width: 100px;
-    height: 100px;
+    margin-top: 10px;
+    width: 170px;
+    height: 170px;
     filter: grayscale(30%);
 }
 
@@ -13,18 +14,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    float: left;
     background-color: #C0E3E7;
     box-shadow: 
     10px 0 5px -5px rgba(0, 0, 0, 0.2), 
     -10px 0 5px -5px rgba(0, 0, 0, 0.2);
 }
 
-.div{
+.div_img{
     margin: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
-    max-width: 100px;
+}
+
+.div{
+    max-width: 150px;
     text-align: center;
 }
 

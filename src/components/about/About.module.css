@@ -1,0 +1,14 @@
+.div {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px; /* Añade espacio entre los elementos */
+    text-wrap: wrap;
+     /* Rompe las palabras largas para evitar el desbordamiento */
+}
+
+.p{
+    width: 100%;
+    text-wrap: wrap;
+    box-sizing: border-box; /* Incluye el padding y el border en el cálculo del ancho */
+    overflow-wrap: break-word;
+}
