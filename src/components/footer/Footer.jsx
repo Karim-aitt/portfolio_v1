@@ -1,13 +1,18 @@
-
+import footer from "./Footer.module.css";
 
 const Footer = () => {
 
+    const año = new Date().getFullYear();
 
     return ( 
-        <>
-            <hr />
-            <h2>Footer</h2>
-        </> 
+        <div className={footer.container}>
+            <div className={footer.div_text}>
+                <p className={footer.p}>
+                    Karim Gonzalez ©️ {año}
+                </p>
+
+            </div>
+        </div> 
     );
 
 }

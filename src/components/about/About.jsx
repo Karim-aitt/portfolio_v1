@@ -6,8 +6,8 @@ const AboutContent = (props) => {
 
 	return (
 		<>
-			<div className={about.div}>
-				<h2 className={about.title}>SOBRE MI...</h2>
+			<div className={about.div} id={props.id_about}>
+				<h2 className={about.title}>{props.title}</h2>
 
 				<p className={about.p}>
 					{props.texto}

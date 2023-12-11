@@ -4,12 +4,17 @@
     top: 0; /* Esto hará que se quede en la parte superior de la pantalla */
     align-self: flex-start; /* Alineación en caso de que otros elementos sean más altos */
     z-index: 100; /* Asegurarse de que el Navbar esté sobre otros elementos */
-  }
+    text-align: center;
+}
+
 .a{
     text-decoration: none;
-    
+}
+
+.div_a:first-of-type{
+    margin-top: 10px;
 }
 
 .div_a{
-    margin-top: 5px;
+    margin-top: 30px;
 }

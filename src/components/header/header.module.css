@@ -1,15 +1,10 @@
 
-.container{
+.div{
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.div_text{
-    margin: 0 auto;
-    text-align: center;
-}
-
-.p{
+.h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgba(29, 29, 29, 0.62);
+    margin-left: 285px;
 }
