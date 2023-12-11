@@ -8,10 +8,11 @@ return(
 
 <div className="encabezade">
 
-    <div>
+    <div className = {estilitos.headerPrin}>
         
     <h2 className= {estilitos.h2}>Web Developer</h2>
 
+    <button className = {estilitos.boton}>click</button>
     </div>
 
 

@@ -12,20 +12,7 @@ function App() {
   return (
     <>
     <Header/>
-      <BrowserRouter>
-       
-        
-        <Navbar />
-
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-        </Routes>
-
-
-      </BrowserRouter>
       
-        <Footer numero="9314"/>
     </>
   )
 }

@@ -1,4 +1,25 @@
 .h2{
     font-family: 'Lobster', sans-serif;
+    margin-left: 300px;
+}
 
+.headerPrin{
+
+    display: flex;
+    
+
+
+}
+
+.boton{
+
+    width: 50px; /* Ancho del botón */
+    height: 50px; /* Altura del botón */
+    border-radius: 50%; /* Hace que el botón sea circular */
+    border: none;
+    background-color: rgb(241, 240, 240); /* Color de fondo del botón (puedes cambiarlo) */
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 550px;
 }
