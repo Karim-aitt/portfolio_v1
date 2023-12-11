@@ -1,0 +1,26 @@
+
+
+.footer{
+
+    
+width: 1000px;
+margin: 0 auto;
+
+}
+
+
+.p_container{
+
+text-align: center;
+margin: 0 auto;
+
+
+}
+
+.p{
+    
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color:rgb(150, 150, 150)
+}

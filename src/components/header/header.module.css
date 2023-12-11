@@ -1,7 +1,11 @@
 .h2{
     font-family: 'Lobster', sans-serif;
-    margin-left: 300px;
+    max-width: 200px
 }
+
+
+
+
 
 .headerPrin{
 
@@ -9,6 +13,23 @@
     
 
 
+}
+
+
+
+.container_h2_boton{
+
+width: 700px;
+margin-left: 285px ;
+
+}
+
+
+
+
+.h2container{
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .boton{

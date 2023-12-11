@@ -1,3 +1,35 @@
-body{
-    background-color: lightblue;
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://i.pinimg.com/originals/51/f9/b4/51f9b4d83e168a84303ab3239db7a01c.jpg);
 }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px; /* Ajusta esto al ancho máximo deseado para tu layout */
+  }
+  
+  .sidebar {
+    
+    min-width: 200px; /* Ajusta este valor según el ancho deseado para la barra lateral */
+    width: 250px;
+    max-width: 250px; /* Ajusta este valor según el ancho deseado para la barra lateral */
+  }
+  
+  .main-content {
+    flex: 3;
+    margin: 0 20px;
+  }
+  
+  /* MOBILE VIEW */
+  @media (max-width: 645px) {
+    .body {
+        background-color: red;
+    }
+  
+    .container {
+      flex-direction: column;
+    }
+  }

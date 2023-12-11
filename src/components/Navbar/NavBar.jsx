@@ -1,12 +1,15 @@
-import styles from './Navbar.module.css'
-import {Link} from "react-router-dom";
+import navbar from './Navbar.module.css'
+
 
 const Navbar = () => {
     return ( 
-        <nav>
-            
-            <Link to="/"> Homepage </Link>
-            <Link to="/about"> Aboutpage </Link>
+        <nav className={navbar.nav}>
+            <div>
+                <a className={navbar.a} href="#about"> A </a>
+            </div>
+            <div className={navbar.div_a}>
+                <a className={navbar.a} href="#about"> A </a>
+            </div>
             
         </nav>
      );

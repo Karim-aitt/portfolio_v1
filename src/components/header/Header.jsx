@@ -9,10 +9,15 @@ return(
 <div className="encabezade">
 
     <div className = {estilitos.headerPrin}>
-        
-    <h2 className= {estilitos.h2}>Web Developer</h2>
+     <div className= {estilitos.h2container}>
+       <div className ={estilitos.container_h2_boton}>
+        <h2 className= {estilitos.h2}>Web Developer</h2>
 
-    <button className = {estilitos.boton}>click</button>
+       </div>
+        
+    </div>   
+
+    {/* <button className = {estilitos.boton}>click</button> */}
     </div>
 
 

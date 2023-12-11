@@ -1,28 +1,15 @@
+import styles from "./Footer.module.css"
 
-import { useState } from "react";
-
-const Footer = (props) => {
-
-    let telefono = props.numero;
-
-    const [numeroNuevo, setNumeroNuevo] = useState(0)
-
-    function cambiar(){
-        setNumeroNuevo(1234)
-    }
+const Footer = () => {
 
 
     return ( 
-        <>
-            <hr />
-            <h2>Contacto</h2>
-            <p>telefono {telefono}</p>
-            <p>{numeroNuevo}</p>
+        <div className = {styles.footer}>
+            <div className = {styles.p_container}>
 
-            <button onClick={cambiar}>
-                Cambiar
-            </button>
-        </> 
+            <p className ={styles.p}>Laura Marchante @ Actualizado Diciembre 2023</p>
+            </div>
+        </div> 
     );
 
 }
