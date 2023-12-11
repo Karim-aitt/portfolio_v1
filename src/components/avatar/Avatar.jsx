@@ -7,17 +7,23 @@ const Avatar = () => {
             <img className={avatar.img} src="src/assets/avatar.png" />
         </div>
         <div className={avatar.div}>
-            <h2 className={avatar.h2}>Karim</h2>
+            <h2 className={avatar.h2}>KARIM</h2>
             <p className={avatar.p}>Desarrollador Web Full Stack</p>
             <ul className={avatar.ul}>
                 <li>
-                    <a>i</a>
+                    <a href="https://www.linkedin.com/in/karimdev/">
+                        <i className="fa-brands fa-linkedin-in"></i>
+                    </a>
                 </li>
                 <li>
-                    <a>i</a>
+                    <a href="mailto: karim.gonzalez.ait@gmail.com">
+                        <i className="fa-solid fa-envelope"></i>
+                    </a>
                 </li>
                 <li>
-                    <a>i</a>
+                    <a href="https://github.com/Karim-aitt">
+                        <i className="fa-brands fa-github"></i>
+                    </a>
                 </li>
             </ul>
         </div>

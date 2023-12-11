@@ -10,11 +10,10 @@
     padding: 10px;
     margin: 0 10px;
     min-width: 150px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #C0E3E7;
+    background-color: #858897;
     box-shadow: 
     10px 0 5px -5px rgba(0, 0, 0, 0.2), 
     -10px 0 5px -5px rgba(0, 0, 0, 0.2);
@@ -33,11 +32,17 @@
 
 .h2{
     margin-bottom: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1em;
+    color: var(--black);
 }
 
 .p{
     margin-top: 0px;
     text-wrap: wrap;
+    line-height: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--white);
 }
 
 .ul{
@@ -47,4 +52,8 @@
 }
 .ul li{
     margin: 0 auto;
+}
+
+a{
+    color: var(--black);
 }
