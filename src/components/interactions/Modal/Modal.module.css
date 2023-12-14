@@ -1,0 +1,49 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    width: 800px;
+    background: var(--white);
+    padding: 20px;
+    border-radius: 5px;
+    /* Otros estilos que necesites */
+}
+
+.box{
+    width: 100%;
+}
+.box h4{
+    margin-bottom: 0;
+}
+.box ul{
+    margin-top: 5px;
+    list-style-type: square;
+}
+
+.container img{
+    height: 400px;
+    width: auto;
+    margin-right: 30px;
+}
+.cont_button{
+    
+}
+
+.cont_button:hover{
+    cursor: pointer;
+}
+.cont_button span{
+    width: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+}

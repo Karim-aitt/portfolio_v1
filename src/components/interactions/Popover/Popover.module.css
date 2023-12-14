@@ -1,0 +1,41 @@
+.button {
+    position: relative;
+    /* Estilos para el botón o el elemento que activa el popover */
+  }
+  
+  .content {
+    position: absolute;
+    top: 100%; /* Ajusta según sea necesario */
+    left: 50%; /* Centra el popover */
+    transform: translateX(-50%); /* Alinea correctamente con el botón */
+    width: 200px; /* O el ancho que desees */
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 100;
+  }
+  
+  /* Opcional: Añadir una flecha apuntando hacia el elemento que activa el popover */
+  .content::before {
+    content: '';
+    position: absolute;
+    bottom: 100%; /* Alinea la flecha en la parte inferior del popover */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #ccc transparent;
+  }
+  
+  .content::after {
+    content: '';
+    position: absolute;
+    bottom: 100%; /* Alinea la flecha en la parte inferior del popover, justo debajo de ::before para crear efecto */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 4px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+  }

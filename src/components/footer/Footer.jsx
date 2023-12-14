@@ -8,7 +8,7 @@ const Footer = () => {
         <div className={footer.container}>
             <div className={footer.div_text}>
                 <p className={footer.p}>
-                    Karim Gonzalez ©️ {año}
+                    Karim Gonzalez @ {año}
                 </p>
 
             </div>

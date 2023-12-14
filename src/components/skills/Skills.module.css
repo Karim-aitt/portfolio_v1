@@ -1,0 +1,87 @@
+.div {
+    padding: 20px;
+    margin-bottom: 20px;
+    text-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.499);
+    padding-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 30px;
+
+}
+
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+.aptitud_div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.table th{
+    font-size:small;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.table_skills th{
+    width: 150px;
+    text-align: left;
+}
+
+.table_skills tr {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.table_skills td {
+    width: auto;
+    text-align: left;
+    display: flex; /* Alinea verticalmente los elementos dentro de la celda */
+    gap: 10px; /* Espacio entre la imagen y el span */
+    padding-right: 20px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .table_skills tr{
+        flex-wrap: wrap;
+    }
+    .table_skills td {
+        padding: 5px;
+        flex-basis: 80%; /* Vuelve al comportamiento original en pantallas grandes */
+    }
+}
+
+
+.table_skills img {
+    /* Ajusta el tamaño de la imagen si es necesario */
+    height: 25px; /* Ejemplo, cambia esto según tus necesidades */
+    width: auto;
+}
+
+.img{
+    width: 35px;
+    height: 35px;
+}
+
+.hr{
+    margin: 50px auto 30px;
+}
+
+@media (max-width: 868px) {
+    .hr{
+        margin: 0 auto;
+    }
+}

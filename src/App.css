@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url("./assets/background_black.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,11 +11,10 @@ body {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    max-width: 1000px; /* Ajusta esto al ancho máximo deseado para tu layout */
+    max-width: 1200px; /* Ajusta esto al ancho máximo deseado para tu layout */
   }
   
   .sidebar {
-    
     min-width: 200px; /* Ajusta este valor según el ancho deseado para la barra lateral */
     width: 250px;
     max-width: 250px; /* Ajusta este valor según el ancho deseado para la barra lateral */
@@ -27,12 +26,44 @@ body {
   }
   
   /* MOBILE VIEW */
-  @media (max-width: 645px) {
-    .body {
-        background-color: red;
-    }
+  @media (max-width: 1268px) {
   
     .container {
       flex-direction: column;
     }
+
+    .sidebar{
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin: 0 0 20px;
+
   }
+  }
+
+  .scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--mediumgrey);
+    color: var(--black);
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover{
+  transform: translateX(-5px) translateY(-5px);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3);
+}

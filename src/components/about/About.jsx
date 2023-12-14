@@ -3,6 +3,7 @@ import about from "./About.module.css";
 const AboutContent = (props) => {
 
 	const texto2 = props.texto2;
+	const texto3 = props.texto3;
 
 	return (
 		<>
@@ -16,6 +17,12 @@ const AboutContent = (props) => {
 				{texto2 ? 
 				<p className={about.p}>
 					{texto2}
+				</p> : 
+				null
+				}
+				{texto3 ? 
+				<p className={about.p}>
+					{texto3}
 				</p> : 
 				null
 				}
